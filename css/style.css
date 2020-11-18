@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+nav{
+    background-color: #5E869F;
+    width: 100vw;
+    height: 20vh;
+}
+
+main{
+    background-color: #5E869F;
+    width: 100vw;
+    height: 60vh;
+}
+
+footer{
+    background-color: #545454;
+    width: 100vw;
+    height: 20vh;
+}
