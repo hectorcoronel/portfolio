@@ -73,9 +73,9 @@ ul a:hover{
 ul a:active {
     color: var(--rojo);
 }
-ul a:visited{
+/* ul a:visited{
     color: var(--azulFuerte);
-}
+} */
 
 
 li{
@@ -102,8 +102,14 @@ footer{
     color: var(--naranja);
     font-size: 1.6rem;
 }
-#feature, .article, .network{
+.article, .network{
     height: 10rem;
+    margin-bottom: 1rem;
+    background-color: var(--azulClaro);
+}
+
+#feature{
+    min-height: 10rem;
     margin-bottom: 1rem;
     background-color: var(--azulClaro);
 }
@@ -121,4 +127,15 @@ figure img{
     background-position: 50%;
     border-radius: 50%;
    margin-top: -20px;
+}
+
+a .git{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icons/git.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
