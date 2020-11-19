@@ -6,6 +6,7 @@
     --naranjaDos: #aa261a;
     --rojo: #bb1b36;
     --blanco: #d9dcd6;
+   
 }
 
 *{
@@ -19,9 +20,11 @@ html{
 }
 body{
     width: 90%;
+    height: 97.8vh;
     margin: 0 auto;
     text-align: center;
-    background-color: var(--azulFuerte);
+    background: linear-gradient(207deg, #4d488a 10%, #16425B 45%);
+    padding: 0;
 }
 
 h1{
